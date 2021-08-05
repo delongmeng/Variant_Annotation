@@ -8,7 +8,7 @@
 # Uncomment the following code to perform the annotation on default input file (Challenge_data_(1).vcf) 
 # and save the output to the default file (output.tsv):
 
-# python download_sequence_ontology.py
+# python vcf_annotation.py
 
 # Alternatively, you can also modify the input file and/or the output path, for example:
 python vcf_annotation.py --input_path test_input.vcf --output_path test_output.tsv

@@ -58,7 +58,7 @@ Also note that the annotation program is hardcoded to process input files with t
 
 - You can run the `vcf_annotation.py` program to perform annotation. The following code will by default take the `Challenge_data_(1).vcf` file as input and save the output to `output.tsv`:  
 ```
-python download_sequence_ontology.py
+python vcf_annotation.py
 ```
 - This program can also take arguments to modify the default input file and/or output path, for example:
 ```

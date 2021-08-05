@@ -13,7 +13,7 @@ This program rely on a sequence ontology file to provide information of serveren
 Make sure you have the sequence_ontology.csv in the same folder. If not, run the download_sequence_ontology.py program to download it.
 
 To run this program, make sure packages (such as pandas) are installed, and then simply type the following code in command line:
-python download_sequence_ontology.py
+python vcf_annotation.py
 Also, default input file (Challenge_data_(1).vcf) and output path (output.tsv) can be modified, for example:
 python vcf_annotation.py --input_path test_input.vcf --output_path test_output.tsv
 '''
